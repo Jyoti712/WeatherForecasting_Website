@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - WeatherSphere</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@preline/preline@2.0.0/dist/preline.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1975&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #1e293b;
+    }
+
+    .dark body {
+      background-color: #0f172a;
+      color: #f8fafc;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="gradient-bg text-white shadow-lg">
+    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-cloud-sun text-3xl"></i>
+        <h1 class="text-2xl font-bold">WeatherSphere</h1>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="index.html" class="hover:text-blue-200">Home</a>
+        <a href="forecast.html" class="hover:text-blue-200">Forecast</a>
+        <a href="about.html" class="hover:text-blue-200 font-bold">About</a>
+        <a href="contact.html" class="hover:text-blue-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Content -->
+  <main class="flex-grow py-16 bg-white/80 dark:bg-slate-800/80 rounded-lg shadow-lg mx-4 md:mx-auto max-w-4xl">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center">About WeatherSphere</h2>
+      <p class="mb-4 text-gray-700 dark:text-gray-300">
+        WeatherSphere is your go-to platform for real-time, accurate weather forecasts, developed to make weather insights both accessible and actionable. Whether you're planning your day or preparing for severe conditions, we’ve got you covered.
+      </p>
+      <p class="mb-4 text-gray-700 dark:text-gray-300">
+        We gather and analyze data from a wide range of reliable sources, including the OpenWeather API, to bring you hyperlocal, detailed forecasts. Our mission is to provide clear, accurate, and beautiful weather updates that help people stay informed and safe.
+      </p>
+      <p class="mb-4 text-gray-700 dark:text-gray-300">
+        Launched in 2023, WeatherSphere continues to evolve with a user-first approach, combining modern design with trusted meteorological science. We’re committed to constant improvement and value your feedback.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-white py-12">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-sm">&copy; 2023 WeatherSphere. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
