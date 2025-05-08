@@ -1,2 +1,2 @@
-# WeatherForecasting_Website
-WeatherSphere is a real-time weather web application built using PHP and the OpenWeather API. It delivers accurate, location-based forecasts with a sleek, responsive interface. Users can search for weather by city or ZIP code and receive up-to-date conditions powered by a global network of weather stations.
+# ⛅ WeatherForecasting_Website – WeatherSphere
+WeatherSphere is a real-time weather web application developed using PHP and the OpenWeather API. It provides accurate, location-specific forecasts through a clean and responsive interface. Users can easily search for weather conditions by city name or ZIP code, and receive timely updates sourced from a global network of weather stations. Designed for clarity and ease of use, WeatherSphere brings reliable meteorological insights right to your screen.
